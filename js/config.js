@@ -39,3 +39,4 @@ settings.add(worldSettings, "minVeloctiy", 1, 100);
 settings.add(worldSettings, "maxVeloctiy", 1, 100);
 settings.add(worldSettings, "minHsl", 0, 360);
 settings.add(worldSettings, "maxHsl", 0, 360);
+settings.close();
