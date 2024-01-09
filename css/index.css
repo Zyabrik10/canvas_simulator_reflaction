@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+
+  height: 100vh;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.view-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: #eee;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #eee;
+  color: white;
+  border-radius: 5px;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
